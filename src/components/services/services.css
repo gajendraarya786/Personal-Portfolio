@@ -66,21 +66,22 @@
     }
     .services h1{
         padding:0;
-        font-size:50px;
+        font-size:45px;
     }
     .services-format{
         gap:20px;
-        padding:32px;
+        padding: 10px 0px 20px 20px;
     }
-    .service-format h2{
-        font-size: 28px;
+    .services-format h2{
+        font-size: 35px;
     }
-    .service-format p{
-        font-size: 18px;
+    .services-format p{
+        font-size: 16px;
         line-height: 32px;
         max-width: 300px;   
     }
     .services-container{
         grid-template-columns: 1fr 1fr;
+        
     }
 }

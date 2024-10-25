@@ -89,8 +89,9 @@
 @media(max-width:768px){
     .about{
         gap:80px;
-        margin: 50px 70px 0px 100px;
+        margin: 50px 50px 0px 70px;
         align-items: start;
+        width: 500px;
     }
     .about-title h1{
         font-size: 50px;
@@ -98,6 +99,7 @@
   .about-section{
      display: flex;
      flex-direction: column;
+     margin-right: 50px;
   }
   .about-left{
     display: none;
@@ -106,6 +108,7 @@
 .about-para{
     font-size:18px;
     line-height:33px;
+    
 }
 .about-skill{
     gap:20px;
@@ -116,6 +119,8 @@
 }
 .about-achievements{
     justify-content: space-between;
+    position: relative;
+    right: 30px;
 }
 .about-achievement{
     gap:15px;
