@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './Contact.css';
-import mail_icon from '../../assests/envelop.jpg';
-import location_icon from '../../assests/location.jpg';
-import call_icon from '../../assests/phone.jpg';
+import mail_icon from '../../assests/mail_icon.svg';
+import location_icon from '../../assests/location_icon.svg';
+import call_icon from '../../assests/call_icon.svg';
 
 const Contact = () => {
     const [result, setResult] = useState(""); // Define state for the result message
