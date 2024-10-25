@@ -3,7 +3,7 @@ import './about.css'
 import theme_img from '../../assests/gka.jpg'
 const About = () => {
     return(
-       <div id="" className='about'>
+       <div id="About" className='about'>
          <div className="about-title">
             <h1>About me</h1>
             {/* <img src={theme_img} alt="" /> */}

@@ -40,3 +40,13 @@
 .nav-connect:hover{
     transform: scale(1.05);
 }
+.nav-menu .active p{
+     color:#e4181e;
+}
+.anchor-link{
+    text-decoration: none;
+    color: aliceblue;
+}
+.anchor-link:hover{
+    color: #e4181e;
+}
