@@ -58,3 +58,29 @@
     transform: scale(1.05);
     transition: 0.4s;
 }
+@media(max-width:768px){
+    .services{
+        align-items: start;
+        gap:70px;
+        margin: 20px 70px;
+    }
+    .services h1{
+        padding:0;
+        font-size:50px;
+    }
+    .services-format{
+        gap:20px;
+        padding:32px;
+    }
+    .service-format h2{
+        font-size: 28px;
+    }
+    .service-format p{
+        font-size: 18px;
+        line-height: 32px;
+        max-width: 300px;   
+    }
+    .services-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
