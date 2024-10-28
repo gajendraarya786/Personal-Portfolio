@@ -116,9 +116,6 @@
     max-width: 60%;
    overflow-wrap: break-word;
 }
-.about-skills{
-    /* max-width: 60%; */
-}
 .about-skill{
     gap:1px;
     align-items: center;
