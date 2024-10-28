@@ -101,15 +101,17 @@
     @media(max-width:480px){
         .contact{
             gap:50px;
-            margin: 50px 70px;
+            margin: 50px 50px;
             align-items: start;
         }
         .contact-title h1{
              padding:0;
-             font-size: 50px;
+             font-size: 35px;
              font-weight: 600;
         }
         .contact-section{
+            position: relative;
+            top:-40px;
             flex-direction: column;
         }
         .contact-left h1{

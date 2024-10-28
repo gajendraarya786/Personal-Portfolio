@@ -61,12 +61,12 @@
 @media(max-width:480px){
     .hero{
         position: relative;
-        left: 90px;
+        left: 10px;
     }
    .hero h1{
      margin-top: 50px;
      width:90%;
-     font: 50px;
+     font-size: 35px;
    }
 .hero p{
     width: 60%;

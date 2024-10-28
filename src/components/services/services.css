@@ -62,18 +62,20 @@
     .services{
         align-items: start;
         gap:70px;
-        margin: 20px 70px;
+        margin: 20px 50px;
     }
     .services h1{
-        padding:0;
-        font-size:45px;
+        position: relative;
+        left: -25px;
+        font-size:35px;
     }
     .services-format{
-        gap:20px;
+        gap:15px;
         padding: 10px 0px 20px 20px;
+        max-width: 90%;
     }
     .services-format h2{
-        font-size: 35px;
+        font-size: 25px;
     }
     .services-format p{
         font-size: 16px;
@@ -83,5 +85,7 @@
     .services-container{
         grid-template-columns: 1fr 1fr;
         
+
+
     }
 }

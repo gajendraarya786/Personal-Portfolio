@@ -89,17 +89,19 @@
 @media(max-width:480px){
     .about{
         gap:80px;
-        margin: 50px 50px 0px 70px;
+        margin: 50px 50px 0px 50px;
         align-items: start;
         width: 500px;
     }
     .about-title h1{
-        font-size: 50px;
+        font-size: 35px;
     }
   .about-section{
+    position: relative;
+    top:-40px;
      display: flex;
      flex-direction: column;
-     margin-right: 50px;
+
   }
   .about-left{
     display: none;
@@ -110,6 +112,13 @@
     line-height:33px;
     
 }
+.about-para p{
+    max-width: 80%;
+   
+}
+.about-skills{
+    max-width: 80%;
+}
 .about-skill{
     gap:20px;
     align-items: center;
@@ -118,9 +127,8 @@
     height: 6px;
 }
 .about-achievements{
+    max-width: 80%;
     justify-content: space-between;
-    position: relative;
-    right: 30px;
 }
 .about-achievement{
     gap:15px;
