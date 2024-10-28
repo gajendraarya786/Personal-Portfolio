@@ -36,15 +36,3 @@
     transform: rotate(360deg);
   }
 }
-/* Prevent zoom on mobile */
-html, body {
-  zoom: 1;
-}
-
-/* Ensure container doesn’t cause overflow */
-.container {
-  width: 100%;
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
