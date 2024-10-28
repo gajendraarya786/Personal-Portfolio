@@ -42,6 +42,10 @@
     background-color: #e4181e;
     cursor: pointer;
 }
+.hero-connect a{
+    text-decoration: none;
+    color: aliceblue;
+}
 .hero-resume{
     padding: 25px 75px;
     border-radius: 50px;
