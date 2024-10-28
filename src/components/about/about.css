@@ -89,18 +89,18 @@
 @media(max-width:480px){
     .about{
         gap:80px;
-        margin: 50px 50px 0px 50px;
+        margin: 50px 40px 0px 50px;
         align-items: start;
         width: 500px;
     }
     .about-title h1{
-        font-size: 35px;
+        font-size: 30px;
     }
   .about-section{
     position: relative;
     top:-40px;
-     display: flex;
-     flex-direction: column;
+    display: flex;
+    flex-direction: column;
 
   }
   .about-left{
@@ -113,21 +113,37 @@
     
 }
 .about-para p{
-    max-width: 80%;
-   
+    max-width: 60%;
+   overflow-wrap: break-word;
 }
 .about-skills{
-    max-width: 80%;
+    /* max-width: 60%; */
 }
 .about-skill{
-    gap:20px;
+    gap:1px;
     align-items: center;
 }
+.about-skill p{
+    font-size: 20px;
+}
 .about-skill hr{
-    height: 6px;
+    height: 5px;
+    max-width: 30%;
+}
+#html{
+    max-width: 95%;
+}
+#react{
+    max-width: 75%;
+}
+#JS{
+    max-width: 90%;
+}
+#next-js{
+    max-width: 50%;
 }
 .about-achievements{
-    max-width: 80%;
+    max-width: 60%;
     justify-content: space-between;
 }
 .about-achievement{

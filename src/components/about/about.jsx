@@ -18,10 +18,10 @@ const About = () => {
                     <p>As someone who is always excited about the latest trends in web development, I’m constantly learning and growing as a developer. Whether it's enhancing user experiences, optimizing code for performance, or exploring new frameworks and tools, I love the challenge of turning concepts into reality.</p>
                 </div>
                 <div className="about-skills">
-                    <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"50%"}}/></div>
-                    <div className="about-skill"><p>React JS</p><hr style={{width:"70%"}}/></div>
-                    <div className="about-skill"><p>JavaScript</p><hr style={{width:"60%"}}/></div>
-                    <div className="about-skill"><p>Next JS</p><hr style={{width:"50%"}}/></div>
+                    <div className="about-skill" id="html"><p>HTML & CSS</p><hr style={{width:"50%"}}/></div>
+                    <div className="about-skill" id="react"><p>React JS</p><hr style={{width:"70%"}}/></div>
+                    <div className="about-skill" id="JS"><p>JavaScript</p><hr style={{width:"60%"}}/></div>
+                    <div className="about-skill" id="next-js"><p>Next JS</p><hr style={{width:"50%"}}/></div>
                 </div>
             </div> 
          </div>

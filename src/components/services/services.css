@@ -61,18 +61,18 @@
 @media(max-width:480px){
     .services{
         align-items: start;
-        gap:70px;
+        gap:50px;
         margin: 20px 50px;
     }
     .services h1{
         position: relative;
         left: -25px;
-        font-size:35px;
+        font-size:30px;
     }
     .services-format{
-        gap:15px;
+        gap:10px;
         padding: 10px 0px 20px 20px;
-        max-width: 90%;
+        max-width: 70%;
     }
     .services-format h2{
         font-size: 25px;
@@ -80,12 +80,10 @@
     .services-format p{
         font-size: 16px;
         line-height: 32px;
-        max-width: 300px;   
+        max-width: 80%;   
     }
     .services-container{
-        grid-template-columns: 1fr 1fr;
-        
-
+        grid-template-columns: 1fr;
 
     }
 }
