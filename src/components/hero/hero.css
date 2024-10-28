@@ -54,7 +54,7 @@
 .hero-resume:hover{
     border:2px solid #e4181e;
 }
-@media(max-width:768px){
+@media(max-width:480px){
     .hero{
         position: relative;
         left: 90px;
