@@ -84,7 +84,7 @@ body{
       
     .navbar{
         background: rgba(0, 0, 0, 0.2); /* translucent white */
-        backdrop-filter: blur(13px);
+        backdrop-filter: blur(11px);
         position: fixed;
         margin-top: 0;
         width: 100%;
