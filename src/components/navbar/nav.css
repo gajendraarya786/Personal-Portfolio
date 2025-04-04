@@ -1,6 +1,11 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
 
 .navbar{
     height:50px;
@@ -69,7 +74,9 @@ html{
         scroll-behavior: smooth;
       }
     body{
-        overflow-x: visible;
+        overflow-x: hidden;
+        overflow-y: auto;
+        scroll-behavior: smooth;
     }
       section {
         scroll-margin-top: 80px; /* or the height of your navbar */
@@ -99,6 +106,7 @@ html{
         top:30px;
         left:200px;
         width:30px;
+        height: 22px;
     }
     .nav-menu ul{
         display: flex;
@@ -107,7 +115,8 @@ html{
        align-items: flex-start;
        top:0;
        gap:30px;
-       background-color: #e4181e;
+       background-color: #181616;
+       opacity: 1;
        width:250px;
        height: 100vh;
        z-index:2000;
@@ -116,10 +125,13 @@ html{
     }
     .nav-menu li{
         font-size: 30px;
-        padding-left: 65px;
+        padding-left: 78px;
         flex-direction: row;
         gap:20px;
     } 
+    .nav-menu p{
+        font-size: 22px;
+    }
     .nav-menu .active p{
         color: aliceblue;
     }
