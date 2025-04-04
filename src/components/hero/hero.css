@@ -3,6 +3,8 @@
     align-items: center;
     flex-direction: column;
     gap:35px;
+    position: relative;
+    bottom: 30px;
 }
 #img{
     height: 250px;

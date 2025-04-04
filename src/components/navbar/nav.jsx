@@ -1,4 +1,4 @@
-import React, { useCallback, useRef, useState } from 'react'
+import React, { useRef, useState } from 'react'
 import './nav.css'
 import menu_open from '../../assests/menu_open.svg'
 import menu_close from '../../assests/menu_close.svg'
@@ -19,10 +19,10 @@ const Navbar = () => {
         <ul ref={menuRef}>
             <img src={menu_close} onClick={closeMenu} alt="" className='nav-mob-close'/>
             <li className={menu==='home'? "active": ''}><a className='anchor-link' href="#home"><p onClick={() => setMenu('home')}>Home</p></a></li>
-            <li className={menu==='About'? "active": ''}><a className='anchor-link' offset={50} href="#About"><p onClick={() => setMenu('About')}>About me</p></a></li>
-            <li className={menu==='service'? "active": ''}><a className='anchor-link' offset={50} href="#service"><p onClick={() => setMenu('service')}>Services</p></a></li>
-            <li className={menu===''? "active": ''}><a className='anchor-link' offset={50} href="#home"><p onClick={() => setMenu('')}>Portfolio</p></a></li>
-            <li classame={menu==='Contact'? "active": ''}><a className='anchor-link' offset={50} href="#Contact"><p onClick={() => setMenu('Contact')}>Contact</p></a></li>
+            <li className={menu==='About'? "active": ''}><a className='anchor-link'  href="#About"><p onClick={() => setMenu('About')}>About me</p></a></li>
+            <li className={menu==='service'? "active": ''}><a className='anchor-link'  href="#service"><p onClick={() => setMenu('service')}>Services</p></a></li>
+            <li className={menu===''? "active": ''}><a className='anchor-link'  href="#home"><p onClick={() => setMenu('')}>Portfolio</p></a></li>
+            <li className={menu==='Contact'? "active": ''}><a className='anchor-link'  href="#Contact"><p onClick={() => setMenu('Contact')}>Contact</p></a></li>
         </ul>
        </div>
        <div className="nav-connect">

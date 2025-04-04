@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap:80px;
-    margin: 80px 170px;
+    margin: 50px 170px;
 }
 .about-title{
     position: relative;
@@ -89,7 +89,7 @@
 @media(max-width:480px){
     .about{
         gap:80px;
-        margin: 50px 40px 0px 40px;
+        margin: 20px 40px 0px 40px;
         align-items: start;
         width: 500px;
     }

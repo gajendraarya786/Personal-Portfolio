@@ -126,6 +126,11 @@
         .contact-detail img{
             width: 25px;
         }
+        .contact-right{
+            position: relative;
+            bottom: 50px;
+            margin-bottom: 0;
+        }
         .contact-right label{
             font-size: 20px;
         }

@@ -6,7 +6,7 @@ body{
   height:100vh;
   background-color: black;
   color: white;
-  font-family: 'outfit';
+  font-family: 'outfit', serif;
 }
 html, body{
   overflow-x: hidden;
