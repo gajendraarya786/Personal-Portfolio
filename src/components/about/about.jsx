@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import theme_img from '../../assests/gka.jpg'
+import profile2 from '../../assests/profile2.jpg'
 const About = () => {
     return(
        <div id="About" className='about'>
@@ -10,7 +10,7 @@ const About = () => {
          </div>
          <div className="about-section">
             <div className="about-left">
-                <img src={theme_img} alt="" />
+                <img src={profile2} alt="" />
             </div>
             <div className="about-right">
                 <div className="about-para">
