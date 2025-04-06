@@ -79,11 +79,11 @@ body{
         scroll-behavior: smooth;
     }
       section {
-        scroll-margin-top: 80px; /* or the height of your navbar */
+        scroll-margin-top: 80px; 
       }
       
     .navbar{
-        background: rgba(0, 0, 0, 0.2); /* translucent white */
+        background: rgba(0, 0, 0, 0.2); 
         backdrop-filter: blur(11px);
         position: fixed;
         margin-top: 0;
