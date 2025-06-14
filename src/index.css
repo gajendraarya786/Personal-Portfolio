@@ -1,14 +1,94 @@
-*{
+:root {
+  /* Light theme colors */
+  --background-color: #f8fafc;
+  --text-color: #1e293b;
+  --primary-color: #3b82f6;
+  --secondary-color: #64748b;
+  --card-background: #ffffff;
+  --border-color: #e2e8f0;
+  --heading-color: #1e293b;
+  --subtitle-color: #64748b;
+  --link-color: #3b82f6;
+  --link-hover-color: #8b5cf6;
+  --button-primary-bg: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  --button-primary-text: #ffffff;
+  --button-secondary-bg: #e2e8f0;
+  --button-secondary-text: #1e293b;
+  --input-background: #f1f5f9;
+  --input-border: #cbd5e1;
+  --input-text: #1e293b;
+  --shadow-color: rgba(0, 0, 0, 0.05);
+  --hero-gradient-start: rgba(59, 130, 246, 0.1);
+  --hero-gradient-end: rgba(139, 92, 246, 0.1);
+  --nav-bg: rgba(255, 255, 255, 0.8);
+  --nav-border: rgba(226, 232, 240, 0.7);
+  --nav-link-color: #1e293b;
+  --nav-link-hover-color: #3b82f6;
+  --nav-logo-color: #1e293b;
+  --nav-shadow: rgba(0, 0, 0, 0.05);
+  --scroll-indicator-color: #cbd5e1;
+}
+
+.dark-mode {
+  /* Dark theme colors */
+  --background-color: #0f172a;
+  --text-color: #e2e8f0;
+  --primary-color: #3b82f6;
+  --secondary-color: #94a3b8;
+  --card-background: #1e293b;
+  --border-color: #334155;
+  --heading-color: #f1f5f9;
+  --subtitle-color: #94a3b8;
+  --link-color: #3b82f6;
+  --link-hover-color: #8b5cf6;
+  --button-primary-bg: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  --button-primary-text: #ffffff;
+  --button-secondary-bg: #334155;
+  --button-secondary-text: #e2e8f0;
+  --input-background: #1e293b;
+  --input-border: #334155;
+  --input-text: #e2e8f0;
+  --shadow-color: rgba(0, 0, 0, 0.3);
+  --hero-gradient-start: rgba(59, 130, 246, 0.2);
+  --hero-gradient-end: rgba(139, 92, 246, 0.2);
+  --nav-bg: rgba(15, 23, 42, 0.8);
+  --nav-border: rgba(30, 41, 59, 0.7);
+  --nav-link-color: #e2e8f0;
+  --nav-link-hover-color: #3b82f6;
+  --nav-logo-color: #e2e8f0;
+  --nav-shadow: rgba(0, 0, 0, 0.3);
+  --scroll-indicator-color: #334155;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
-body{
-  height:100vh;
-  background-color: black;
-  color: white;
-  font-family: 'outfit', serif;
+
+/* Global styles for dark mode transition */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
 }
-html, body{
-  overflow-x: hidden;
-  max-width: 100%;
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 12px;
 }
+
+::-webkit-scrollbar-track {
+  background: var(--background-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--link-hover-color);
+} 

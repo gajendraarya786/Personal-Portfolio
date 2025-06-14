@@ -1,19 +1,21 @@
-import React from "react";
-import Navbar from './components/navbar/nav'
-import Hero from './components/hero/hero'
-import About from './components/about/about'
-import Services from "./components/services/services";
-import Contact from './components/Contact/Contact';
-const App = () => {
+import React from 'react';
+import { ThemeProvider } from '../src/ThemeContext.js';
+import Navbar from '../src/components/navbar/nav.jsx';
+import Hero from '../src/components/hero/hero.jsx';
+import About from '../src/components/about/about.jsx';
+import Services from '../src/components/services/services.jsx';
+import Contact from '../src/components/Contact/Contact.jsx';
+
+function App() {
   return (
-    <div>
+    <ThemeProvider>
       <Navbar />
-      <Hero/>
-      <About/>
-      <Services/>
-      <Contact/>
-      
-    </div>
-  )
+      <Hero />
+      <About />
+      <Services />
+      <Contact />
+    </ThemeProvider>
+  );
 }
-export default App;
+
+export default App; 
