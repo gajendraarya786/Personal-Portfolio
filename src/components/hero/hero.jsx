@@ -6,7 +6,7 @@ import profile1 from '../../assests/profile1.jpg'
 
 const Hero = () => {
    const showResume = () => {
-      window.open('Gajendra__Resumef.pdf');
+      window.open('GKresume.pdf');
    }
 
     return(
