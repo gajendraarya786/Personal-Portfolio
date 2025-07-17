@@ -92,16 +92,7 @@ const Navbar = () => {
                         })}
                     </ul>
                     
-                    <div className="nav-connect-mobile">
-                        <a 
-                            className="anchor-connect" 
-                            href="#Contact"
-                            onClick={() => handleNavClick('Contact')}
-                        >
-                            <Mail className="nav-icon" />
-                            Connect with me
-                        </a>
-                    </div>
+                 
                 </div>
 
                 <div className="nav-controls">
